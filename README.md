@@ -20,16 +20,19 @@ Jest is a JavaScript testing framework designed for simplicity and performance. 
 - Snapshot testing and watch mode for fast feedback.
 
 **Installation:**
-```bash
 npm install --save-dev jest
 
 ### 2. **Babel**
-Babel is a key tool for developers building React applications. It is a free, open-source JavaScript compiler that allows developers to use the latest JavaScript syntax in older browsers.
+Babel is a key tool for developers building React applications. It is a free, open-source JavaScript compiler that allows developers to use the latest JavaScript syntax in older browsers. To use Babel, install required dependencies:
 
-#### Installation
-Run the following command to install Babel and its required dependencies:
+**Installation:**
 ```bash
 npm install --save-dev babel-jest @babel/core @babel/preset-env
 
 ### 3. **Cypress**
+Cypress is an end-to-end testing framework that runs directly in the browser, providing real-time feedback for testing web applications. Its ability to simulate user interactions, debug with ease, and capture detailed logs makes it ideal for testing application workflows and ensuring UI reliability.
+Install Cypress via preferred package manager. 
+npm install cypress --save-dev
+
+
 
