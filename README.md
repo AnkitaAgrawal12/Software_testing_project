@@ -26,13 +26,37 @@ npm install --save-dev jest
 Babel is a key tool for developers building React applications. It is a free, open-source JavaScript compiler that allows developers to use the latest JavaScript syntax in older browsers. To use Babel, install required dependencies:
 
 **Installation:**
-```bash
 npm install --save-dev babel-jest @babel/core @babel/preset-env
 
 ### 3. **Cypress**
 Cypress is an end-to-end testing framework that runs directly in the browser, providing real-time feedback for testing web applications. Its ability to simulate user interactions, debug with ease, and capture detailed logs makes it ideal for testing application workflows and ensuring UI reliability.
-Install Cypress via preferred package manager. 
+
+**Installation:**
 npm install cypress --save-dev
 
+### 4. **React Testing Library**
+React Testing Library focuses on testing React components by simulating user interactions and verifying application behavior. It encourages best practices by prioritizing testing from the user's perspective, ensuring that components are accessible, functional, and integrated effectively.
 
+**Installation:**
+npm install --save-dev @testing-library/react @testing-library/dom
+
+##Testing
+
+#Team Member 1(Ankita's work)
+1. Testing Navbar Logout Behavior (Jest):
+    Implemented unit tests for the NavbarComponent to ensure proper logout functionality.
+    Validated removal of session data (localStorage, sessionStorage, and cookies).
+
+2. Login Page Testing (Jest):
+    Designed unit tests for the LoginPage component to validate form rendering and behavior.
+    Mocked API calls using axios to handle successful login, invalid credentials, and unexpected errors.
+
+3. Testing with Cypress:
+    Wrote Cypress tests to simulate real user flows for login and logout functionalities.
+    Intercepted and mocked API responses for login requests to test session management.
+    Verified session persistence using localStorage and ensured proper redirection to the homepage or login page after login/logout actions.
+
+4. Session Management Verification:
+    Thoroughly tested the behavior of session storage and navigation to maintain user experience integrity during login and logout flows.
+    
 
