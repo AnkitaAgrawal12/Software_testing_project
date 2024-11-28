@@ -40,9 +40,9 @@ React Testing Library focuses on testing React components by simulating user int
 **Installation:**
 npm install --save-dev @testing-library/react @testing-library/dom
 
-##Testing
+## Testing
 
-#Team Member 1(Ankita's work)
+### Team Member 1(Ankita's work)
 1. Testing Navbar Logout Behavior (Jest):
     Implemented unit tests for the NavbarComponent to ensure proper logout functionality.
     Validated removal of session data (localStorage, sessionStorage, and cookies).
