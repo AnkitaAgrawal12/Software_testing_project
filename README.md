@@ -65,7 +65,7 @@ npm install --save-dev @testing-library/react @testing-library/dom
     Developed mechanisms for user session management, ensuring secure and efficient tracking of user activities across the application.
     Integrated functionality to store, retrieve, and clear session-related data such as tokens and user information using localStorage, sessionStorage, and cookies.
     
-2.Cypress Testing:
+2. Cypress Testing:
     Designed and implemented robust Cypress tests for end-to-end testing of key functionalities:
     	Navigation Tests: Testing navigation across key routes, ensuring seamless user transitions.
         mainpage.cy.js: Validated the main page's features, ensuring user interactions and components function as expected.
